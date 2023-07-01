@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3d3d3d;
+    background-color: #fff;
+}
+
+/* Topo*/
+
+.topo {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.link-logotipo {
+    margin: 0 40px 0 0;
+    font-size: 24px;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.link-logotipo span {
+    color: #6592c9;
+}
+
+.link-topo {
+    text-decoration: none;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 0px 15px 10px 15px;
+    color: #3d3d3d;
+}
+/*End Topo*/
+/*Conteudo*/
